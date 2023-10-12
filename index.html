@@ -3,23 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Demo</title>
 </head>
 <body>
     <header>
-
+        <img src="" alt="">
+        <div class="nav-links">
+            <nav>
+                <a href="#about">about</a>
+                <a href="#contact">contact</a>
+            </nav>
+        </div>
     </header>
-    <div class="body1">
-        <!--Details of Services-->
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-    <div class="body2">
-
-    </div>
+    <section id="about">
+        <div class="body1" display="inline">
+            <!--Details of Services-->
+            <div>
+                <h2>Details of Services</h2>
+            </div>
+            <div>
+                <div>
+                    <img src="img.png" />
+                    <p>Text1</p>
+                </div>
+                <div>
+                    <img src="img.png" />
+                    <p>Text2</p>
+                </div>
+                <div>
+                    <img src="img.png" />
+                    <p>Text3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="body2">
+            <div class="contactDetails">
+                <h2>Contact Details</h2>
+                <h3>name: Company Name</h3>
+                <h3>Address: Company Address</h3>
+                <h3>Phone: Company Telephone</h3>
+            </div>
+            <div class="contactForm">
+                <h2>Contact Details</h2>
+                <form>
+                    <label for="yname">Name:</label>
+                    <br>
+                    <input type="text" id="yname" name="yname">
+                    <br>
+                    <label for="yemail">Name:</label>
+                    <br/>
+                    <input type="text" id="yemail" name="yemail">
+                    <br/>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </section>
     <footer>
-        
+        <h3>Company Name &copy;</h3>
     </footer>
 
 </body>
